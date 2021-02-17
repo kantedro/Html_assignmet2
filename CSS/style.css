@@ -1,0 +1,153 @@
+/* My CSS file */
+
+body {
+    background-color: seashell;
+    color: #404040;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+header, footer{
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom: 10px solid limegreen;
+}
+
+head, header, article, footer {
+    width: 950px;
+    background: ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom: 10px solid limegreen;
+}
+
+header{
+color: seagreen;
+font-size: 32px;
+
+
+}
+
+title, h1, h2 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-left: 20px;
+    border-left: 4px double salmon;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    border-radius: 12px;
+    background-color: darkgreen;
+    color:floralwhite;
+    padding: 12px;
+    border-radius: 8px;
+    
+    
+}
+nav ul li a:hover {
+    background-color: darkred;
+}
+
+a:active {
+    background-color: cadetblue;
+}
+
+ol{
+    list-style-type: square
+}
+
+ol li{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+
+
+dl dt{
+
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+dl dt:nth-child(even) {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+
+}
+    
+
+ dd{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+h3{
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-left: 8px double limegreen;
+}
+h4{
+    width: 950px;
+    background: whitesmoke ;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-left: 8px double limegreen;
+}
+}
+
+nav ul li{
+    background-color:none;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px;
+
+}
+#photo {
+    box-shadow:  2px 1px black;
+
+}
